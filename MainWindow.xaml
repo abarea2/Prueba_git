@@ -8,6 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Width="200" Height="50" x:Name="MiButton" Click="MiButton_Click"> Pulsa!!</Button>
-
+        <Label>Prueba</Label>
     </Grid>
 </Window>
