@@ -7,7 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Width="200" Height="50" x:Name="MiButton" Click="MiButton_Click"> Pulsa!!</Button>
-        <Label>Prueba</Label>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="2" Width="200" Height="50" x:Name="MiButton" Click="MiButton_Click"> Pulsa!!</Button>
+        <Label>Prueba</Label>       
+
+        <StackPanel Grid.Column="1">
+            <Button>Boton 1</Button>
+            <Button>Boton 2</Button>
+            <Button>Boton 3</Button>
+            <Button>Boton 4</Button>
+            <Button>Boton 5</Button>
+
+
+
+
+        </StackPanel>
     </Grid>
 </Window>
