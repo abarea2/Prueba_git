@@ -24,7 +24,7 @@
             <Button>Boton 5</Button>
             <Button>Boton 6</Button>
             <Button>Boton 7</Button>
-
+             <Button>Boton 8</Button>
 
         </StackPanel>
     </Grid>
